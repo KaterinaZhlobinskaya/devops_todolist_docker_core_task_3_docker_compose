@@ -32,4 +32,4 @@ services:
       - mysql
     restart: unless-stopped
 volumes:
-  - db-data:/var/lib/mysql
+  db-data:
